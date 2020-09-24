@@ -1,0 +1,82 @@
+html {
+	background-color: #454550;
+	color: gainsboro;
+	font-family: 'Fira Code';
+}
+
+a {
+	color: yellowgreen;
+	text-decoration: none;
+}
+a:hover {
+	color: chartreuse;
+}
+
+#head a{
+	color: unset;
+}
+#head a:hover{
+	color: whitesmoke;
+}
+
+#important_links {
+	position: sticky;
+	justify-content: space-between;
+	display: flex;
+}
+#important_links * {
+	margin-left: auto;
+	margin-right: auto;
+}
+#page_main {
+	margin-left: auto;
+	margin-right: auto;
+	align-content: stretch;
+	height: fit-content;
+	min-width: 20%;
+	width: 1200px;
+	max-width: 90%;
+	/* position: relative; */
+}
+#page_body * {
+	/* flex-grow: 2; */
+}
+
+#feed {
+	display: block;
+	width: 100%;
+	/* background-color: black; */
+}
+
+.flexable { display: flex; }
+.spaced_out { margin: 5px; }
+
+.left_side_bar {
+	display: inline-block;
+	background-color: #555760;
+	border-radius: 15px;
+	padding: 15px;
+	width: 100%;
+}
+
+.left_side_bar:hover {
+	background-color: #606065;
+}
+
+.feed_element{
+	border-radius: 15px;
+	padding: 15px;
+	background-color: #555760;
+	display: inline-block;
+	width: 100%;
+}
+
+.feed_element:hover {
+	background-color: #606065;
+}
+.text_centered { text-align: center; }
+
+.section:hover .section_title {
+	color: whitesmoke;
+}
+
