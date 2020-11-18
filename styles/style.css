@@ -5,7 +5,7 @@ html {
 }
 
 a {
-	color: yellowgreen;
+	color: #9acd32;
 	text-decoration: none;
 }
 a:hover {
@@ -36,16 +36,11 @@ a:hover {
 	min-width: 20%;
 	width: 1200px;
 	max-width: 90%;
-	/* position: relative; */
-}
-#page_body * {
-	/* flex-grow: 2; */
 }
 
 #feed {
 	display: block;
 	width: 100%;
-	/* background-color: black; */
 }
 
 .flexable { display: flex; }
@@ -79,5 +74,11 @@ a:hover {
 
 .section:hover .section_title {
 	color: whitesmoke;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
